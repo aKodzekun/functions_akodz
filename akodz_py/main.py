@@ -10,4 +10,6 @@ api_result = requests.get('http://api.weatherstack.com/current', params)
 api_response = api_result.json()
 
 print(api_response)
+
+# enkhsuren 2023
 print(u'Current temperature in %s is %d℃' % (api_response['location']['name'], api_response['current']['temperature']))

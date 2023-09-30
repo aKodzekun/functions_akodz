@@ -14,4 +14,5 @@ print(api_response)
 # enkhsuren
 # https://weatherstack.com/documentation
 # https://weatherstack.com/dashboard
+
 print(u'Current temperature in %s is %d℃' % (api_response['location']['name'], api_response['current']['temperature']))

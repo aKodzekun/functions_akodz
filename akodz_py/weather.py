@@ -15,4 +15,5 @@ print(api_response)
 # https://weatherstack.com/documentation
 # https://weatherstack.com/dashboard
 
+# https://www.visualcrossing.com/weather-api
 print(u'Current temperature in %s is %d℃' % (api_response['location']['name'], api_response['current']['temperature']))

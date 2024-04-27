@@ -47,8 +47,8 @@ with mp_face_mesh.FaceMesh(
         f = cv2.waitKey(1) & 0xFF
         if f == ord('q') :
             timestamp = time.strftime("%Y%m%d-%H%M%S")
-            filename = f"datas/faces/screen-vi-{timestamp}.jpg"
-            filename1 = f"datas/faces/screen-vi-{timestamp}-mesh.jpg"
+            filename = f"datas/face's/screen-vi-{timestamp}.jpg"
+            filename1 = f"datas/face's/screen-vi-{timestamp}-mesh.jpg"
             cv2.imwrite(filename, frame)
             cv2.imwrite(filename1, old)
             fmc.meshCut(old,timestamp)

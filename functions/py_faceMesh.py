@@ -1,5 +1,6 @@
 import cv2
 import mediapipe as mp
+# Хүний нүүрэнд маск тавина.
 
 mp_face_mesh = mp.solutions.face_mesh
 mp_drawing = mp.solutions.drawing_utils
@@ -9,7 +10,7 @@ with mp_face_mesh.FaceMesh(
     max_num_faces=10,
     min_detection_confidence=0.5
 ) as face_mesh :
-    image = cv2.imread("datas/faces/face-cut-20231030-212124-mesh.jpg")
+    image = cv2.imread("datas/face's/manFace.jpg")
 
     height, width, _ = image.shape
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)

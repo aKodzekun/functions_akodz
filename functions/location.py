@@ -26,5 +26,5 @@ def iploc(): # Using IP Geolocation
     else:
         print("Location not found.")
 
-# gpsloc()
+gpsloc()
 iploc()

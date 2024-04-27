@@ -74,4 +74,4 @@ def normalize(text):
 
 # voiceRecord()
 # transcribe("output.wav")
-print(transcribe('Altanchimeg 1.mp3'))
+# print(transcribe('Altanchimeg 1.mp3'))

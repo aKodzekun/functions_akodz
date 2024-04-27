@@ -3,7 +3,8 @@ import mediapipe
 import numpy as np
 import pandas as pd
 
-# img = cv2.imread("datas/faces/Enkhsuren.jpg")
+# Хүний нүүрэн хэсгийн тасдаж авах хэсэг
+# img = cv2.imread("datas/face's/manFace.jpg")
 
 def meshCut(img, dates) :
     # Нүүрний тэмдэглэгээ илрүүлэгчийг барих
